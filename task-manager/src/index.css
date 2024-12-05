@@ -1,0 +1,43 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonte padrão e configurações do body */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Listas */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Inputs */
+input {
+  font-family: inherit;
+}
+
+/* Botões */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
